@@ -977,6 +977,9 @@ GameObject:
   - component: {fileID: 2646962589876863025}
   - component: {fileID: 4684356388754569508}
   - component: {fileID: -1991821066080793325}
+  - component: {fileID: 8594394119081004393}
+  - component: {fileID: -2807836305922336180}
+  - component: {fileID: 3296773265755441478}
   m_Layer: 0
   m_Name: Doberman
   m_TagString: Untagged
@@ -1069,7 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5bba9195ff01094994f9d4974bddc76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 20
 --- !u!114 &-1991821066080793325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1080,6 +1083,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c70b212541ec71246b6d8e9976ae3aad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8594394119081004393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350075509268468004}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15, y: 2, z: 0.3}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!54 &-2807836305922336180
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350075509268468004}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3296773265755441478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350075509268468004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f4dc7df0ccc5264ca2c674f16e5e25a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2350709158219666454
