@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4624355673549771831}
   - component: {fileID: 1181198243686040910}
   - component: {fileID: 6685857866727138682}
-  - component: {fileID: 3621496290060546999}
+  - component: {fileID: 5701339230046194800}
   m_Layer: 0
   m_Name: Sandwich
   m_TagString: Untagged
@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c70b212541ec71246b6d8e9976ae3aad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 3
 --- !u!65 &1181198243686040910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -161,7 +162,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3621496290060546999
+--- !u!114 &5701339230046194800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,6 +171,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6140229512185819481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f4dc7df0ccc5264ca2c674f16e5e25a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8289cee0cdad71346ae02f29d5f352ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
