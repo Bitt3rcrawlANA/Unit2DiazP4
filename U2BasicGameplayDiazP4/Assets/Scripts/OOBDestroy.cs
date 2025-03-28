@@ -5,15 +5,16 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class OOBDestroy : MonoBehaviour
 {
-    public float health = 3;
 
-    float topBound = 30;
-    float lowerBound = -10;
+    float topBound = 60;
+    float lowerBound = -40;
+    float sideBound = 60;
+    private GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Lives:" + health);
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -21,11 +22,22 @@ public class OOBDestroy : MonoBehaviour
     {
         if (transform.position.z > topBound)
         {
+            gameManager.AddLives(-1);
             Destroy(gameObject);
         }
         else if (transform.position.z < lowerBound)
         {
-            Debug.Log("Game Over!");
+            gameManager.AddLives(-1);
+            Destroy(gameObject);
+        }
+        else if(transform.position.x > sideBound)
+        {
+            gameManager.AddLives(-1);
+            Destroy(gameObject);
+        }
+        else if(transform.position.x < -sideBound)
+        {
+            gameManager.AddLives(-1);
             Destroy(gameObject);
         }
     }

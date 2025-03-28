@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 3296773265755441478}
   m_Layer: 0
   m_Name: Doberman
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1072,7 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5bba9195ff01094994f9d4974bddc76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
 --- !u!114 &-1991821066080793325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1085,7 +1085,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c70b212541ec71246b6d8e9976ae3aad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
 --- !u!65 &8594394119081004393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1146,7 +1145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4dc7df0ccc5264ca2c674f16e5e25a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!1 &2350709158219666454
 GameObject:
   m_ObjectHideFlags: 0
