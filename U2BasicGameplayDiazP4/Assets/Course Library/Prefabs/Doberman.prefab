@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5bba9195ff01094994f9d4974bddc76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
 --- !u!114 &-1991821066080793325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6291,6 +6291,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 560745335665111583}
     m_Modifications:
+    - target: {fileID: 816425526600120784, guid: af28eab914762084c893433787a10c63, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3551182607033606722, guid: af28eab914762084c893433787a10c63, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6391,13 +6395,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: SliderCanvas2
       objectReference: {fileID: 0}
+    - target: {fileID: 5029504054103480091, guid: af28eab914762084c893433787a10c63, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5098968838142482310, guid: af28eab914762084c893433787a10c63, type: 3}
       propertyPath: m_Name
       value: Slider2
       objectReference: {fileID: 0}
+    - target: {fileID: 5098968838142482310, guid: af28eab914762084c893433787a10c63, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5791192558714382232, guid: af28eab914762084c893433787a10c63, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5791192558714382232, guid: af28eab914762084c893433787a10c63, type: 3}
       propertyPath: m_TargetGraphic
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304183502019330391, guid: af28eab914762084c893433787a10c63, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310615603672135227, guid: af28eab914762084c893433787a10c63, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

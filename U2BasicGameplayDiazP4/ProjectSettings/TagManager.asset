@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Animal
   - Sandwich
+  - Dog
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Feed
   - Water
   - UI
   - 
