@@ -7,13 +7,13 @@ public class SpawnManager : MonoBehaviour
     public GameObject[] animalPrefabs;
 
 
-    private float spawnRangeX = 17;
+    private float spawnRangeX = 10;
     private float spawnRangeZ = 12;
     private float spawnPosZ = 20;
     private float spawnPosX = 20;
 
     private float startDelay = 2;
-    private float spawnInterval = 3f;
+    private float spawnInterval = 4f;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +32,7 @@ public class SpawnManager : MonoBehaviour
         Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
         Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
 
-        Vector3 spawnPos2 = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, -spawnPosZ);
+        Vector3 spawnPos2 = new Vector3(Random.Range(0, spawnRangeX), 0, -spawnPosZ);
         Vector3 rotation = new Vector3(0, 180, 0);
         Instantiate(animalPrefabs[animalIndex], spawnPos2, Quaternion.Euler(rotation));
 
